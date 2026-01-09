@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+
+# OS / IDE
+.vscode/
+.DS_Store
+
+# Env
+.env
+.env.*
+
+# runtime uploads
+data/uploads/
+data/*.db
+bench/results/*.txt
+hey.exe
+upload.json
+tmp_query.json
